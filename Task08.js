@@ -8,12 +8,15 @@ function timeConverter(number) {
   if (hours != 1) hourName = "hours";
   if (minutes != 1) minuteName = "minutes";
 
+  output = hours + " " + hourName + ", " + minutes + " " + minuteName;
+  altOutput = minutes + " " + minuteName;
+  
   if (hours < 1) 
   {
-    return minutes + " " + minuteName;
+    return altOutput
   }
 
-  return hours + " " + hourName + ", " + minutes + " " + minuteName;
+  return output
 }
 
 console.log(timeConverter(71));
