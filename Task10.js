@@ -8,7 +8,8 @@ function string(string, string2) {
       letters += string2[i];
     }
   }
-  output = "Common letters: " + letters.split("");
+  
+  output = "Common letters: " +  [...new Set(letters)];
   return output;
 }
-console.log(string("hOuse", "computErs"));
+console.log(string("TshiDi", "MatsHidiso"));
