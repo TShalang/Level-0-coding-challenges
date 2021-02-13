@@ -6,7 +6,7 @@ function evenOrOdd(num) {
   } else {
     text = "odd";
   }
-  return text;
+  console.log(text)
 }
 
-console.log(evenOrOdd(8));
+evenOrOdd(6)

@@ -8,9 +8,9 @@ function vowel(string) {
       vowels += string[i];
     }
   }
-  vowelOutput = "Vowels: " + vowels.split("");
+  vowelOutput = vowels.split(" ");
 
-  return vowelOutput;
+  console.log(vowelOutput)
 }
 
-console.log(vowel("And a hello to YOU"));
+vowel("And a hello to YOU")
