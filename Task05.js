@@ -5,7 +5,7 @@ function triangleArea(num1, num2, num3) {
       ((semiPerimeter - num1) * (semiPerimeter - num2) * (semiPerimeter - num3))
   );
 
-  return area;
+  console.log(area)
 }
 
-console.log(triangleArea(1, 2, 3));
+triangleArea(1, 2, 3);
