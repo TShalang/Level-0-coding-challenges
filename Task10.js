@@ -10,6 +10,6 @@ function string(string, string2) {
   }
   
   output = "Common letters: " +  [...new Set(letters)];
-  return output;
+  console.log(output)
 }
-console.log(string("TshiDi", "MatsHidiso"));
+string("TshiDi", "MatsHidiso");
