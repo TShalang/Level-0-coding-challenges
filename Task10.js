@@ -1,4 +1,4 @@
-function string(string, string2) {
+function commonLetters(string, string2) {
   var string = string.toLowerCase().split("");
   var string2 = string2.toLowerCase();
   var letters = "".toLowerCase();
@@ -12,4 +12,4 @@ function string(string, string2) {
   output = "Common letters: " +  [...new Set(letters)];
   console.log(output)
 }
-string("TshiDi", "MatsHidiso");
+commonLetters("TshiDi", "MatsHidiso");
